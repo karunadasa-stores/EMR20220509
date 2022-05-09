@@ -1,0 +1,7 @@
+[05/09/2022 09:36:00 PM:pyrogram.dispatcher:235:ERROR] type object 'script' has no attribute 'SOURCE_TXT'
+Traceback (most recent call last):
+  File "C:\Users\Gavi\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 222, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Gavi\Desktop\Python Projects\EvaMaria-master\plugins\pm_filter.py", line 459, in cb_handler
+    text=script.SOURCE_TXT,
+AttributeError: type object 'script' has no attribute 'SOURCE_TXT'
